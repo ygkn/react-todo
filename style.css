@@ -1,0 +1,30 @@
+.App {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.NewTodo {
+  display: flex;
+}
+
+.NewTodo__inputTitle {
+  flex-grow: 1;
+}
+
+.TodoList {
+  padding: 0;
+  margin: 0;
+}
+
+.TodoListItem {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.TodoListItem__label {
+  flex-grow: 1;
+}
+
+.TodoListItem__label--done {
+  text-decoration: line-through;
+}
